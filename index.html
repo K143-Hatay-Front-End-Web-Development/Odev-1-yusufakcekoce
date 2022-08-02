@@ -1,0 +1,91 @@
+<div class="face"></div>
+<div class="circleLeft circle"></div>
+<div class="circleRight circle"></div>
+<div class="eyeLeft eye"></div>
+<div class="eyeRight eye"></div>
+<div class="dotLeft dot"></div>
+<div class="dotRight dot"></div>
+<div class="noseLeft nose"></div>
+<div class="noseRight nose"></div>
+<style>
+  body {
+    background: #293462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .face {
+    width: 150px;
+    height: 100px;
+    background: radial-gradient(
+      circle at 50% -130px,
+      #fe5f55 200px,
+      #a64942 200px
+    );
+    border-radius: 90px 90px 90px 90px;
+    margin-top: 20px;
+  }
+
+  .circleLeft {
+    margin-right: 70px;
+  }
+  .circleRight {
+    margin-left: 70px;
+  }
+
+  .circle {
+    background: #fe5f55;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -80px;
+  }
+
+  .eyeLeft {
+    margin-right: 70px;
+  }
+  .eyeRight {
+    margin-left: 70px;
+  }
+
+  .eye {
+    background: #fff1c1;
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -80px;
+  }
+  .dotLeft {
+    margin-right: 70px;
+  }
+  .dotRight {
+    margin-left: 70px;
+  }
+
+  .dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-top: -80px;
+    background: #293462;
+    border-radius: 50%;
+  }
+
+  .noseLeft {
+    margin-right: 20px;
+  }
+  .noseRight {
+    margin-left: 20px;
+  }
+
+  .nose {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #293462;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+</style>
